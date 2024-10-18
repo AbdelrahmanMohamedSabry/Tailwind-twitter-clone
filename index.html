@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="dist.css">
+</head>
+
+<body class="bg-white dark:bg-dim-900 ">
+
+  <!-- Container -->
+  <div class="flex container mx-auto xl:max-w-[1200px] h-screen dark:bg-dim-900  ">
+
+
+
+
+    <!-- Left -->
+
+
+
+    <div class="xl:w-1/5 w-20 dark:text-white   ">
+      <!-- Logo -->
+      <a href="#" class="text-dim-50 mt-4 mb-8 flex ">
+        <i class="fa-brands fa-twitter text-4xl	"></i>
+      </a>
+      <!-- Nav -->
+      <nav class="my-2 flex flex-col  ">
+        <a href="#" class="text-dim-50  mb-8">
+          <i class="fa-solid fa-house text-xl "></i>
+          <span class="link-name">Home</span>
+        </a>
+        <a href="#" class="link">
+          <i class="fa-solid fa-hashtag text-xl"></i>
+          <span class="link-name">Explore</span>
+        </a>
+        <a href="#" class="link">
+          <i class="fa-solid fa-bell text-xl"></i>
+          <span class="link-name">Notifications</span>
+        </a>
+        <a href="#" class="link">
+          <i class="fa-solid fa-envelope text-xl"></i>
+          <span class="link-name">Messages</span>
+        </a>
+        <a href="#" class="link">
+          <i class="fa-solid fa-bookmark text-xl"></i>
+          <span class="link-name">Bookmarks</span>
+        </a>
+        <a href="#" class="link">
+          <i class="fa-solid fa-list-ul text-xl"></i>
+          <span class="link-name">Lists</span>
+        </a>
+        <a href="#" class="link">
+          <i class="fa-solid fa-user text-xl"></i>
+          <span class="link-name">Profile</span>
+        </a>
+        <a href="#" class="link">
+          <i class="fa-solid fa-ellipsis text-xl"></i>
+          <span class="link-name">More</span>
+        </a>
+      </nav>
+
+      <!-- Button -->
+      <a href="#" class="flex  font-bold">
+        <i class="fa-solid fa-feather xl:hidden  bg-dim-50 w-10 h-10 flex justify-center items-center rounded-full text-white text-xl  "></i>
+        <span class="   bg-dim-50 text-center w-[95%] py-2 rounded-3xl  hidden xl:inline">Tweet</span>
+      </a>
+      <!-- User -->
+      <div class="flex mt-16 cursor-pointer">
+        <img class="w-10 h-10 rounded-full"
+          src="https://pbs.twimg.com/profile_images/1444753598328496128/hCCopfyz_400x400.jpg" alt="" />
+        <div class="pl-2 hidden xl:block ">
+          <h4 class="font-bold text-gray-800 dark:text-white ">Ag coding</h4>
+          <p class="text-gray-400">@abdoelazizgamal</p>
+        </div>
+
+        <i class="fa-solid fa-chevron-down text-xs hidden xl:flex items-center xl:ml-4  text-gray-800 ">
+        </i>
+
+      </div>
+    </div>
+    <!-- End Left -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Middle -->
+    <div class=" border-gray-200 border-x  h-screen w-full xl:w-1/2  overflow-y-auto  ">
+      <!-- Sticky Header -->
+      <div class="flex justify-between p-4 border-b-gray-200 border-b">
+        <h4 class="font-semibold dark:text-white"> Home</h4>
+        <i class="fa-brands fa-twitter  text-lg  text-blue-400"></i>
+      </div>
+      <!-- Tweet Box -->
+      <div class=" border-gray-200 border-b  ">
+        <div class="p-4 flex ">
+          <img class="w-10 h-10 rounded-full " src="https://pbs.twimg.com/profile_images/1444753598328496128/hCCopfyz_400x400.jpg" alt="" />
+          <textarea class="ml-2 bg-transparent focus:outline-0 resize-none" placeholder="What's happening?"></textarea>
+        </div>
+        <div class="p-4 flex ">
+          <a href="" class="pr-2 text-dim-50 ">
+            <i class="fa-solid fa-image text-lg"></i>
+          </a>
+          <a href="" class="pr-2 text-dim-50">
+            <i class="fa-solid fa-image text-lg"></i>
+          </a>
+          <a href="" class="pr-2 text-dim-50">
+            <i class="fa-solid fa-image text-lg"></i>
+          </a>
+          <a href="" class="pr-2 text-dim-50">
+            <i class="fa-solid fa-image text-lg"></i>
+          </a>
+          <a href="" class="pr-2 text-dim-50">
+            <i class="fa-solid fa-image text-lg"></i>
+          </a>
+          <a href="#" class="bg-dim-50 px-6 py-2 rounded-3xl font-semibold ml-auto dark:text-white">Tweet</a>
+        </div>
+      </div>
+
+      <!-- Show tweets -->
+      <div class="text-center py-3 border-gray-200 border-b  text-dim-50 font-medium cursor-pointer">Show 9 Tweets</div>
+
+      <!-- Tweet -->
+      <div class=" ">
+        <div class="flex p-3">
+          <img class="h-9 w-9 rounded-full "
+            src="https://pbs.twimg.com/profile_images/1444753598328496128/hCCopfyz_200x200.jpg" alt="" />
+          <p class="pl-2 dark:text-white">
+            Ag Coding
+            <span class="text-gray-400 text-sm"> @abdoelazizgamal . Nov 2</span>
+          </p>
+        </div>
+
+        <div class="px-16">
+          <p class="dark:text-white"> Any fool can write code that a computer can understand.
+             Good programmers write code that humans can understand.<br /> <br />
+            Experience is the name everyone gives to their
+            <a href="#" class="text-dim-50 font-semibold">#mistakes</a>
+            <br />
+            <br />
+            Simplicity is the soul of efficiency.
+          </p>
+          <img class="rounded-2xl border my-3 mr-2 w-full"
+            src="https://images.nature.com/original/magazine-assets/d41586-019-00653-5/d41586-019-00653-5_16459150.jpg"
+            alt="" />
+          <div class=" flex justify-between py-3 ">
+            <div class="dark:text-white ">
+              <i class="fa-solid fa-comment mr-2 text-lg"></i>
+              12.3 k
+            </div>
+            <div
+              class="  dark:text-white">
+              <i class="fa-solid fa-retweet mr-2 text-lg"></i>
+              14 k
+            </div>
+            <div
+              class="dark:text-white">
+              <i class="fa-solid fa-heart mr-2 text-lg"></i>
+              14 k
+            </div>
+            <div
+              class="dark:text-white">
+              <i class="fa-solid fa-share mr-2 text-lg"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Toggler -->
+      <div class=" py-2 border-y border-gray-200 bg-gray-50  dark:bg-dim-800">
+        <div class=" bg-white border-gray-200 py-2 border-y dark:bg-dim-900">
+          <h3 class="text-center pt-3 text-xl font-bold dark:text-white">
+            Customize your view
+          </h3>
+          <p class="text-sm text-center text-gray-400 py-3">
+            Manage your font size, color and background. These settings
+            affect all the Twitter accounts on this browser.
+          </p>
+          <a href="#" onclick=""
+            class="">
+            <i class="fa-solid fa-cloud-moon flex justify-center items-center mx-auto my-3 xl:hidden text-white text-lg bg-dim-50 w-11 h-11 rounded-full "></i>
+            <span id="switcher" class=" xl:block  w-1/3 text-center hidden  py-3 my-3 text-white font-bold rounded-full bg-dim-50 mx-auto switcher">Toggle Dark Mode</span>
+          </a>
+        </div>
+      </div>
+      <!-- Spinner -->
+       <div class="p-4 border-4 border-gray-200 dark:border-x-gray-700
+        dark:border-b-gray-700  border-t-[rgb(29,161,242)] 0  w-8 h-8 rounded-full  mx-auto my-4 animate-spin "> 
+
+       </div>
+  
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!-- Right -->
+    <div class="hidden xl:block w-[30%]">
+      <!-- Search -->
+      <div class="relative ml-2 my-3" >
+        <i class="fa-solid fa-magnifying-glass text-gray-600 absolute left-3 top-1/2 -translate-y-1/2 "></i>
+        <input type="text "
+          class="bg-gray-300 w-full rounded-full pl-9 py-2 focus:outline-0 dark:bg-dim-400 "
+          placeholder="Search Twitter" />
+      </div>
+      
+      <div class=" ml-2 my-3 bg-gray-100  rounded-lg dark:bg-dim-700">
+        <h3 class="trend dark:text-white ">
+          What’s happening
+        </h3>
+        <div class="trend  ">
+          <h4 class="dark:text-white">
+            #Palestine
+          </h4>
+          <p class="trend-num">29.7K Tweets</p>
+        </div>
+        <div class="trend">
+          <h4 class="dark:text-white">
+            #Palestine
+          </h4>
+          <p class="trend-num">29.7K Tweets</p>
+        </div>
+        <div class="trend">
+          <h4 class="dark:text-white">
+            #Palestine
+          </h4>
+          <p class="trend-num">29.7K Tweets</p>
+        </div>
+        <div class="trend border-b-0 text-dim-50">
+          Show more
+        </div>
+      </div>
+
+
+      <!-- Who to follow  -->
+      <div class="bg-gray-100 ml-2 rounded-lg dark:bg-dim-700 ">
+        <h3 class=" font-semibold pl-2 py-3 dark:text-white">
+          Who to follow
+        </h3>
+
+        <div class="flex justify-between items-center  py-4  border-t border-t-gray-300  ">
+          <div class="flex items-center">
+            <img class="w-11 h-11 rounded-full"
+              src="https://pbs.twimg.com/profile_images/1444753598328496128/hCCopfyz_400x400.jpg" alt="" />
+            <div class=" ">
+              <h5 class="font-semibold text-lg  pl-2 dark:text-white">
+                abdoelazizgamal
+              </h5>
+              <p class="pl-1 text-gray-500">@abdoelazizgamal</p>
+            </div>
+          </div>
+          <a href="#" class=" border-2  border-dim-50  font-semibold text-dim-50 px-5 mr-4 rounded-3xl " >Follow</a>
+        </div>
+
+        <div class="flex justify-between items-center py-4 border-y border-y-gray-300 ">
+          <div class="flex items-center">
+            <img class="w-11 h-11 rounded-full"
+              src="https://pbs.twimg.com/profile_images/1444753598328496128/hCCopfyz_400x400.jpg" alt="" />
+            <div class=" ">
+              <h5 class="font-semibold text-lg  pl-2 dark:text-white">
+                abdoelazizgamal
+              </h5>
+              <p class="pl-1 text-gray-500">@abdoelazizgamal</p>
+            </div>
+          </div>
+          <a href="#" class=" border-2 border-dim-50  font-semibold text-dim-50 px-5 mr-4 rounded-3xl " >Follow</a>
+        </div>
+
+
+        <div class="animate-pulse">
+          <div class="flex justify-between py-4  border-b-2 border-b-gray-300" >
+            <div class="w-14 h-14 rounded-full bg-gray-400"></div>
+            <div class="w-[80%]">
+              <div class="w-[90%] loading"></div>
+              <div class="w-[80%] loading"></div>
+              <div class="w-[70%] loading"></div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="text-dim-50 text-center font-bold py-3 cursor-pointer">
+          Show more
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <Script>
+   switcher.addEventListener("click", 
+   () => {document.documentElement.classList.toggle('dark')}
+    )
+
+
+
+  </script>    
+
+
+
+
+</body>
+
+</html>
